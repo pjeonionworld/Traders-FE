@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:BCF5A9,100:A9F5E1&height=300&section=header&text=Traders로%205이소~(FE)&fontSize=75)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="left"> 신세계 아이앤씨 KDT 교육과정 5기 Final 팀 프로젝트 </p>
+<p align="left"> 진행 기간 : 2024.07.10 ~ 2024.08.30 (8주간)</p>
+  
+<h3> 🍀개발 목표 </h3>
+<p align="left"> 창고가 곧 매장인 트레이더스의 효율적인 재고관리를 위한 직관적인 상품 유통관리 시스템 제작</p>
 
-## Available Scripts
+<h3> 🍀개발 환경 </h3>
+<div align="left">
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
+  <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+  <img src="https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
+  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+</div>
+<div align="left">
+  <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/chartJs-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
+</div>
 
-In the project directory, you can run:
+<h3> 🍀역할 </h3>
+- DB 설계 </br>
+- QR코드를 활용한 입고처리</br>
+- 관리자 페이지</br>
+- 공지 알림 기능</br>
+<br/>
+<h3> 📌ERD(Entity-Relationship Diagram) </h3>
+<br/>
+<h3> 📌QR코드를 활용한 입고처리(입고 상세 내역) </h3>
 
-### `npm start`
+![입고 상세 내역 페이지](https://github.com/user-attachments/assets/198b14e3-71fc-4e4e-9a65-94fa43f65aec)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![화면 캡처 2024-09-13 200226](https://github.com/user-attachments/assets/f6036df2-ade4-48f4-b96d-3b74c6230303)
+<br/>
+<h3> 📌관리자 페이지 </h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![KakaoTalk_20240914_151025042](https://github.com/user-attachments/assets/548c5d53-0560-42b4-9220-34b258250f76)
 
-### `npm test`
+![포폴 5-2](https://github.com/user-attachments/assets/b219c59d-c397-4cd5-907a-84899cf19a00)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![포폴3](https://github.com/user-attachments/assets/83659439-acfe-43cc-9170-359947de557c)
+<br/>
+<h3> 📌공지 기능 </h3>
 
-### `npm run build`
+![포폴 공지-1](https://github.com/user-attachments/assets/08559a78-8264-4f27-ad8a-70ab27e81b72)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr/>
+<h3> 🍀트러블 슈팅 </h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3> 📌효율적인 URL 관리 </h3>
+<h4 align="left"> 📎기존의 방식: 하드코딩된 URL </h4>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![현재 적용 방식](https://github.com/user-attachments/assets/76233d64-1344-4553-8415-bfb3d9062f25)
+<br/>
+<h4 align="left"> 📎개선 된 방식 </h4>
 
-### `npm run eject`
+![개선 2](https://github.com/user-attachments/assets/15ce8294-7cad-4421-ba6e-a53edf90be52)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![개선3](https://github.com/user-attachments/assets/cb015c1b-2859-44ec-9440-29a4da815f79)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![개선 방향](https://github.com/user-attachments/assets/e1a60ff0-1f91-4ad6-8d82-3177119228a2)
+<br/>
+<h4 align="left"> 📎팀원들에게 공유 </h4>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![KakaoTalk_20240819_002243709](https://github.com/user-attachments/assets/21f098f7-156f-40f3-b42a-ea61369eb925)
