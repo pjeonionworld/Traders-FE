@@ -29,6 +29,9 @@
 - 공지 알림 기능</br>
 <br/>
 <h3> 📌ERD(Entity-Relationship Diagram) </h3>
+
+![트레이더스 ERD](https://github.com/user-attachments/assets/37a5cc1d-00bf-45bb-83ff-6fa6abacb44c)
+
 <br/>
 <h3> 📌QR코드를 활용한 입고처리(입고 상세 내역) </h3>
 
